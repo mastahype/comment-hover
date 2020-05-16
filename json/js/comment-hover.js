@@ -53,7 +53,7 @@ function add_hover_listener(){
 		if(!frameVisible){
 			hoverTimeout = setTimeout(function(){
 				show_frame(obj);
-			},500);
+			},1000);
 		} else {
 			show_frame($(this));
 		}
